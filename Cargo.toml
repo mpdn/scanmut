@@ -7,9 +7,7 @@ version = "0.1.0"
 categories = ["no-std", "rust-patterns"]
 license = "MIT"
 repository = "https://github.com/mpdn/scanmut"
-
-[badges]
-travis-ci = { repository = "mpdn/disjoint-borrow" }
+readme="README.md"
 
 [[bench]]
 harness = false

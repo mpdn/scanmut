@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/mpdn/disjoint-borrow.svg?branch=master)](https://travis-ci.org/mpdn/disjoint-borrow)
-
 # scanmut
 
 Insert and remove multiple elments from a `Vec` in `O(n)` time.
