@@ -1,0 +1,20 @@
+[package]
+authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
+edition = "2018"
+name = "scanmut"
+version = "0.1.0"
+categories = ["no-std", "rust-patterns"]
+license = "MIT"
+repository = "https://github.com/mpdn/scanmut"
+
+[badges]
+travis-ci = { repository = "mpdn/disjoint-borrow" }
+
+[[bench]]
+harness = false
+name = "bench"
+
+[dev-dependencies]
+criterion = "0.3.0"
+rand = "0.7.2"
+rand_pcg = "0.2.1"
