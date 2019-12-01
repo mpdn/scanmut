@@ -62,7 +62,7 @@ fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("retain", |b| {
         b.iter(|| {
             let mut v = black_box(items.clone());
-            v.retain(|&x| x < removal_limit);
+            v.retain(|&x| x >= removal_limit);
             black_box(v);
         })
     });
