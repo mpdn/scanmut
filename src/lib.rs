@@ -24,7 +24,7 @@
 
 extern crate alloc;
 
-use alloc::{vec, vec::Vec};
+use alloc::vec::Vec;
 use core as std;
 
 /// An object which can insert multiple elements into a `Vec` in a single scan through the `Vec`.
@@ -461,6 +461,7 @@ impl<T> ScanMut<T> for Vec<T> {
 mod tests {
     use super::*;
     use std::iter::once;
+    use alloc::vec;
 
     #[test]
     fn inserter_empty() {
