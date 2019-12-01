@@ -2,6 +2,7 @@
 authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
 edition = "2018"
 name = "scanmut"
+description = "Insert/remove multiple items from Vecs in O(n) time"
 version = "0.1.0"
 categories = ["no-std", "rust-patterns"]
 license = "MIT"
