@@ -1,6 +1,7 @@
 [package]
 authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
 categories = ["no-std", "rust-patterns"]
+keywords = ["no_std", "vec"]
 description = "Insert/remove multiple items from Vecs in O(n) time"
 edition = "2018"
 license = "MIT"
