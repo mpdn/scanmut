@@ -1,19 +1,20 @@
 [package]
 authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
-edition = "2018"
-name = "scanmut"
-description = "Insert/remove multiple items from Vecs in O(n) time"
-version = "0.1.0"
 categories = ["no-std", "rust-patterns"]
+description = "Insert/remove multiple items from Vecs in O(n) time"
+edition = "2018"
 license = "MIT"
+name = "scanmut"
+readme = "README.md"
 repository = "https://github.com/mpdn/scanmut"
-readme="README.md"
+version = "0.2.0"
 
 [[bench]]
 harness = false
 name = "bench"
 
 [dev-dependencies]
+proptest = "0.10.1"
 criterion = "0.3.0"
 rand = "0.7.2"
 rand_pcg = "0.2.1"
